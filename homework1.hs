@@ -1,7 +1,7 @@
 -- Homework 1.
 -- Function qeq_roots returns a list of roots of a quadratic equation.
 
-qeq_roots :: Float -> Float -> Float -> [Float]
+qeq_roots :: Double -> Double -> Double -> [Double]
 qeq_roots 0 0 0 = error "x is an element of (-inf; +inf)."
 qeq_roots 0 0 c = error "no roots."
 qeq_roots 0 b c = [x] where x = -c / b
